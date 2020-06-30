@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6978a9b5-5354-4301-bf20-a3a599b63877" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1dzvwyokgSi8pw8K7WeFcKafPnD" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/resources/Data" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/resources/Data" />
+      <recent name="$PROJECT_DIR$/src/test/java" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.ApiHelper.createUser">
+    <configuration name="RestCukesRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RestAssuredCucumber" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Stepdefs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Stepdefs" />
+      <option name="MAIN_CLASS_NAME" value="Stepdefs.RestCukesRunner" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApiHelper.createUser" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="RestAssuredCucumber" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Helper.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Helper" />
+      <option name="MAIN_CLASS_NAME" value="Helper.ApiHelper" />
+      <option name="METHOD_NAME" value="createUser" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.ApiHelper.createUser" />
+        <item itemvalue="JUnit.RestCukesRunner" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6978a9b5-5354-4301-bf20-a3a599b63877" name="Default Changelist" comment="" />
+      <created>1593440978922</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1593440978922</updated>
+      <workItem from="1593440982765" duration="4530000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="496" y="227" width="813" height="666" key="#Project_Structure" timestamp="1593484625861">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="496" y="227" width="813" height="666" key="#Project_Structure/0.0.1792.1120@0.0.1792.1120" timestamp="1593484625861" />
+    <state width="1750" height="391" key="GridCell.Tab.0.bottom" timestamp="1593486023768">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state width="1750" height="391" key="GridCell.Tab.0.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1593486023768" />
+    <state width="1750" height="391" key="GridCell.Tab.0.center" timestamp="1593486023766">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state width="1750" height="391" key="GridCell.Tab.0.center/0.0.1792.1120@0.0.1792.1120" timestamp="1593486023766" />
+    <state width="1750" height="391" key="GridCell.Tab.0.left" timestamp="1593486023765">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state width="1750" height="391" key="GridCell.Tab.0.left/0.0.1792.1120@0.0.1792.1120" timestamp="1593486023765" />
+    <state width="1750" height="391" key="GridCell.Tab.0.right" timestamp="1593486023767">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state width="1750" height="391" key="GridCell.Tab.0.right/0.0.1792.1120@0.0.1792.1120" timestamp="1593486023767" />
+    <state width="1750" height="391" key="GridCell.Tab.1.bottom" timestamp="1593486023771">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state width="1750" height="391" key="GridCell.Tab.1.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1593486023771" />
+    <state width="1750" height="391" key="GridCell.Tab.1.center" timestamp="1593486023769">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state width="1750" height="391" key="GridCell.Tab.1.center/0.0.1792.1120@0.0.1792.1120" timestamp="1593486023769" />
+    <state width="1750" height="391" key="GridCell.Tab.1.left" timestamp="1593486023769">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state width="1750" height="391" key="GridCell.Tab.1.left/0.0.1792.1120@0.0.1792.1120" timestamp="1593486023769" />
+    <state width="1750" height="391" key="GridCell.Tab.1.right" timestamp="1593486023770">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state width="1750" height="391" key="GridCell.Tab.1.right/0.0.1792.1120@0.0.1792.1120" timestamp="1593486023770" />
+    <state x="434" y="223" key="Maven.ArtifactSearchDialog" timestamp="1593486491787">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="434" y="223" key="Maven.ArtifactSearchDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1593486491787" />
+    <state x="397" y="199" key="SettingsEditor" timestamp="1593484614938">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="397" y="199" key="SettingsEditor/0.0.1792.1120@0.0.1792.1120" timestamp="1593484614938" />
+  </component>
+</project>
