@@ -1,5 +1,6 @@
 package Utils;
 
+import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
 import io.restassured.response.ResponseBody;
 import org.testng.Assert;
@@ -7,13 +8,14 @@ import org.testng.Assert;
 import java.util.HashMap;
 import java.util.Map;
 
-import static io.restassured.RestAssured.given;
-import static org.hamcrest.Matchers.containsString;
+import static io.restassured.RestAssured.*;
+import static io.restassured.matcher.RestAssuredMatchers.*;
+import static org.hamcrest.Matchers.*;
 
 public class BaseLine_API {
 
     public static Response response;
-    //private Jsonpath jsonPath;
+    private JsonPath jsonPath;
     private Map<String,String>queryParamter = new HashMap();
 
     // Constructor  will get call as soon as object of this class initiates.
@@ -23,7 +25,7 @@ public class BaseLine_API {
 
     public void extractAttributeValue(String attributeName){
         String res = response.toString();
-        //jsonPath.with(res).get(attributeName);
+        jsonPath.with(res).get(attributeName);
     }
 
     public void addQueryParams(String key, String value){
