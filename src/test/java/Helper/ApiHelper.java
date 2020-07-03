@@ -14,29 +14,27 @@ public class ApiHelper extends BaseLine_API {
     }
    
 
-    @Test
+
     public void createUser(){
         String createUserUrl = Constants.baseURI+Constants.basePath+Constants.endPoint;
         rlog.info(createUserUrl);
         baseHelper.doPostRequest(createUserUrl);
-        baseHelper.validateResponseCode(201);
     }
 
-    @Test
+
     public void getUsers(){
         String getUserUrl = Constants.baseURI+Constants.basePath+Constants.endPoint+Constants.param;
         baseHelper.doGetRequest(getUserUrl);
         rlog.info(getUserUrl);
-        baseHelper.validateResponseCode(200);
     }
 
-    @Test
+
     public void getListOfUsers(){
 
         // Build the url using config.properties from a seperate class
 
     }
-    @Test
+
     public void updateUser(){
 
     }

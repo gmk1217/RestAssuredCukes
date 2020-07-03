@@ -2,23 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6978a9b5-5354-4301-bf20-a3a599b63877" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Utils/Config.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Utils/ConfigFileReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Utils/ExtentConfigReport.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Utils/FileReaderManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Utils/RestLogger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Utils/extetConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Utils/logger.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testNg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/StepDefinitions/CreateUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/StepDefinitions/CukeApiRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/StepDefinitions/PostUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/postUser.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Helper/ApiHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Helper/ApiHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Helper/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Helper/Constants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Utils/BaseLine_API.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Utils/BaseLine_API.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/createUser.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/createUser.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/Helper/ApiHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Helper/ApiHelper.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/Helper/Constants.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Helper/Constants.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/Utils/BaseLine_API.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Utils/BaseLine_API.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Utils/PayLoad.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Utils/PayLoad.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Utils/ConfigFileReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Utils/ConfigFileReader.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Utils/FileReaderManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Utils/FileReaderManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/createUser.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/createUser.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +54,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -65,7 +62,7 @@
       <recent name="$PROJECT_DIR$/src/test/java" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.ApiHelper">
+  <component name="RunManager" selected="JUnit.CukeApiRunner">
     <configuration name="Practice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Utils.Practice" />
       <module name="RestAssuredCucumber" />
@@ -79,16 +76,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RestCukesRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Feature: createUser" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="1.2" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/createUser.feature" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <module name="RestAssuredCucumber" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome" />
+      <option name="SUGGESTED_NAME" value="Feature: createUser" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Stepdefs.*" />
+          <option name="PATTERN" value="cucumber.api.cli.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Stepdefs" />
-      <option name="MAIN_CLASS_NAME" value="Stepdefs.RestCukesRunner" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CukeApiRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RestAssuredCucumber" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="StepDefinitions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="StepDefinitions" />
+      <option name="MAIN_CLASS_NAME" value="StepDefinitions.CukeApiRunner" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -131,10 +145,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CukeApiRunner" />
+        <item itemvalue="Cucumber java.Feature: createUser" />
         <item itemvalue="TestNG.ApiHelper" />
         <item itemvalue="TestNG.ApiHelper.createUser" />
         <item itemvalue="Application.Practice" />
-        <item itemvalue="JUnit.RestCukesRunner" />
       </list>
     </recent_temporary>
   </component>
@@ -148,7 +163,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1593440978922</updated>
-      <workItem from="1593440982765" duration="17139000" />
+      <workItem from="1593440982765" duration="20691000" />
     </task>
     <servers />
   </component>
@@ -164,22 +179,22 @@
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="634" y="334" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1593624570603" />
-    <state width="1750" height="465" key="GridCell.Tab.0.bottom" timestamp="1593659207473">
+    <state width="1750" height="465" key="GridCell.Tab.0.bottom" timestamp="1593745674902">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="465" key="GridCell.Tab.0.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1593659207473" />
-    <state width="1750" height="465" key="GridCell.Tab.0.center" timestamp="1593659207471">
+    <state width="1750" height="465" key="GridCell.Tab.0.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1593745674902" />
+    <state width="1750" height="465" key="GridCell.Tab.0.center" timestamp="1593745674900">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="465" key="GridCell.Tab.0.center/0.0.1792.1120@0.0.1792.1120" timestamp="1593659207471" />
-    <state width="1750" height="465" key="GridCell.Tab.0.left" timestamp="1593659207470">
+    <state width="1750" height="465" key="GridCell.Tab.0.center/0.0.1792.1120@0.0.1792.1120" timestamp="1593745674900" />
+    <state width="1750" height="465" key="GridCell.Tab.0.left" timestamp="1593745674899">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="465" key="GridCell.Tab.0.left/0.0.1792.1120@0.0.1792.1120" timestamp="1593659207470" />
-    <state width="1750" height="465" key="GridCell.Tab.0.right" timestamp="1593659207472">
+    <state width="1750" height="465" key="GridCell.Tab.0.left/0.0.1792.1120@0.0.1792.1120" timestamp="1593745674899" />
+    <state width="1750" height="465" key="GridCell.Tab.0.right" timestamp="1593745674901">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="465" key="GridCell.Tab.0.right/0.0.1792.1120@0.0.1792.1120" timestamp="1593659207472" />
+    <state width="1750" height="465" key="GridCell.Tab.0.right/0.0.1792.1120@0.0.1792.1120" timestamp="1593745674901" />
     <state width="1750" height="391" key="GridCell.Tab.1.bottom" timestamp="1593573751583">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
@@ -200,10 +215,10 @@
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="434" y="223" key="Maven.ArtifactSearchDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1593659205638" />
-    <state x="397" y="199" key="SettingsEditor" timestamp="1593572873728">
+    <state x="397" y="199" key="SettingsEditor" timestamp="1593742981118">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state x="397" y="199" key="SettingsEditor/0.0.1792.1120@0.0.1792.1120" timestamp="1593572873728" />
+    <state x="397" y="199" key="SettingsEditor/0.0.1792.1120@0.0.1792.1120" timestamp="1593742981118" />
     <state x="551" y="206" width="689" height="708" key="find.popup" timestamp="1593624707701">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
