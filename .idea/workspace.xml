@@ -2,45 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6978a9b5-5354-4301-bf20-a3a599b63877" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefs/CukeApiRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Output/APIlogs/RestLogs.log" beforeDir="false" afterPath="$PROJECT_DIR$/Output/APIlogs/RestLogs.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Helper/ApiHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Helper/ApiHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/StepDefinitions/CreateUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefs/createUserSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/StepDefinitions/CukeApiRunner.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/StepDefinitions/PostUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefs/GetUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/createUser.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/createUser.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/getUser.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/getUser.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber/report.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/API Suite/API Tests.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/API Suite/API Tests.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/API Suite/API Tests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/API Suite/API Tests.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/CukeAPIReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/CukeAPIReport.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/API Suite/classes.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/API Suite/classes.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/API Suite/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/API Suite/methods-alphabetical.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/API Suite/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/API Suite/methods.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/API Suite/toc.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/API Suite/toc.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Helper/ApiHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Helper/ApiHelper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Helper/Constants.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Helper/Constants.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/StepDefinitions/CreateUser.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/StepDefinitions/CukeApiRunner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/StepDefinitions/PostUser.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Utils/BaseLine_API.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Utils/BaseLine_API.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Utils/ConfigFileReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Utils/ConfigFileReader.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Utils/ExtentConfigReport.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Utils/ExtentConfigReport.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Utils/FileReaderManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Utils/FileReaderManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Utils/PayLoad.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Utils/PayLoad.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Utils/RestLogger.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Utils/RestLogger.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/features/createUser.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/createUser.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/features/postUser.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Utils/Practice.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -216,7 +178,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1593440978922</updated>
-      <workItem from="1593440982765" duration="27700000" />
+      <workItem from="1593440982765" duration="28209000" />
     </task>
     <servers />
   </component>
