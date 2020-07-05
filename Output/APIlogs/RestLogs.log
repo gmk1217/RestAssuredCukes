@@ -1,2 +1,9 @@
 2020-07-02 07:58:00,428 INFO main [Helper.ApiHelper]info(line:41)https://reqres.in/api/users
 2020-07-02 07:58:03,613 INFO main [Helper.ApiHelper]info(line:41)https://reqres.in/api/users/2
+2020-07-04 08:16:41,236 INFO main [Helper.ApiHelper]info(line:41)https://reqres.in/api/users
+2020-07-04 08:18:37,924 INFO main [Helper.ApiHelper]info(line:41)https://reqres.in/api/users
+2020-07-04 08:19:02,048 INFO main [Helper.ApiHelper]info(line:41)https://reqres.in/api/users
+2020-07-04 08:29:15,769 INFO main [Helper.ApiHelper]info(line:41)https://reqres.in/api/users
+2020-07-04 08:29:18,705 INFO main [Helper.ApiHelper]info(line:41)https://reqres.in/api/users/2
+2020-07-04 08:29:41,169 INFO main [Helper.ApiHelper]info(line:41)https://reqres.in/api/users
+2020-07-04 08:29:44,522 INFO main [Helper.ApiHelper]info(line:41)https://reqres.in/api/users/2

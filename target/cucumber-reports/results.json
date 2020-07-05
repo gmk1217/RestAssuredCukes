@@ -1,0 +1,102 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Create user using post method with JsonFile body content",
+        "description": "",
+        "id": "create-user-using-post;create-user-using-post-method-with-jsonfile-body-content",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3462940832,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "i post in to the url",
+            "match": {
+              "location": "createUserSteps.i_post_in_to_the_url()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2879366,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "i should get success response 201",
+            "match": {
+              "arguments": [
+                {
+                  "val": "201",
+                  "offset": 30
+                }
+              ],
+              "location": "createUserSteps.i_should_get_success_response(int)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "create user using Post",
+    "description": "",
+    "id": "create-user-using-post",
+    "keyword": "Feature",
+    "uri": "createUser.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Get user details for the api",
+        "description": "",
+        "id": "get-the-user-detail;get-user-details-for-the-api",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 165830642,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "i use get method for the API to get user information",
+            "match": {
+              "location": "GetUser.i_use_get_method_for_the_API_to_get_user_information()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 122709,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "i should get success response 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 30
+                }
+              ],
+              "location": "createUserSteps.i_should_get_success_response(int)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Get the user detail",
+    "description": "",
+    "id": "get-the-user-detail",
+    "keyword": "Feature",
+    "uri": "getUser.feature"
+  }
+]

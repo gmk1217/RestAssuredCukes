@@ -1,13 +1,11 @@
-package StepDefinitions;
+package stepDefs;
 
 import Helper.ApiHelper;
-import Helper.Constants;
 import Utils.BaseLine_API;
-import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 
-public class CreateUser {
+public class createUserSteps {
     public BaseLine_API baseHelper = new BaseLine_API();
     public ApiHelper apiHelper = new ApiHelper();
 
@@ -17,8 +15,8 @@ public class CreateUser {
     }
 
     @Then("^i should get success response (\\d+)$")
-    public void i_should_get_success_response(int stausCode)  {
-        baseHelper.validateResponseCode(stausCode);
+    public void i_should_get_success_response(int responseCode)  {
+        baseHelper.validateResponseCode(responseCode);
     }
 
 
